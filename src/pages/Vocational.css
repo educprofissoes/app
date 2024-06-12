@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.apresentacao {
+  padding: 50px 20px;
+  padding-bottom: 0px;
+}
+
+.apresentacao h1 {
+  margin-top: 6vh;
+  font-size: 32px;
+  color: #333;
+}
+
+.apresentacao p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.apresentacao h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.apresentacao ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.apresentacao li {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.curso {
+  display: flex;
+  flex-basis: calc(50% - 20px);
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.curso:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.curso-content {
+  display: flex;
+}
+
+.curso-imagem {
+  width: 50%;
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+.curso-texto {
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.curso h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.curso p {
+  margin: 5px 0;
+  color: #666;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cursos {
+  animation: fade-in 0.5s ease-out;
+}
+
+.card-button {
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 0;
+  justify-content: space-between;
+  padding: 2vh;
+  padding-left: 0;
+}
+
+.card-button button:hover {
+  background-color: rgb(2, 51, 117);
+  color: white;
+  border-color: rgb(2, 51, 117);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-divider {
+  margin: 2px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}

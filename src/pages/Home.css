@@ -1,0 +1,33 @@
+body {
+  font-family: Inter, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vh;
+  flex-wrap: wrap;
+}
+
+.card-container-title {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: xxx-large;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card-container {
+  animation: fade-in 0.5s ease-out;
+}
