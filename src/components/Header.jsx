@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 const dropDown = require('../assets/dropdown.png');
 const educ = require('../assets/educ.png');
 const instagram = require('../assets/instagram.png');
@@ -39,7 +40,7 @@ function Header() {
             <img className="dropdown-img" src={dropDown} alt="dropdown" />
             {isDropdownOpen && (
               <div className="dropdown-content">
-                <a href="/vocational">Profissionalizantes</a>
+                <Link to="/vocational">Profissionalizantes</Link>
                 <a href="/#/technical">Técnicos</a>
                 <a href="/#/degree">Graduações</a>
                 <a href="/#/language">Idiomas</a>
