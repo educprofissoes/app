@@ -26,7 +26,7 @@ function Header() {
   return (
     <div className="header-container">
       <div className="menu-container">
-        <a href="/">
+        <a href="/app">
           <img className='educ-icon' src={educ} alt="menu" />
         </a>
         <button className="menu-button" type="button" aria-label="Abrir menu" onClick={toggleModal}>
