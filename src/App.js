@@ -14,13 +14,13 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/app/about" element={<About />} />
-        <Route path="/app/vocational" element={<Vocational />} />
-        <Route path="/app/technical" element={<Technical />} />
-        <Route path="/app/degree" element={<Degree />} />
-        <Route path="/app/language" element={<Language />} />
-        <Route path="/app/vocational/:id" element={<Details />} />
-        <Route path="/app/work-with-us" element={<WorkWithUs />} />
+        <Route path="/#/about" element={<About />} />
+        <Route path="/#/vocational" element={<Vocational />} />
+        <Route path="/#/technical" element={<Technical />} />
+        <Route path="/#/degree" element={<Degree />} />
+        <Route path="/#/language" element={<Language />} />
+        <Route path="/#/vocational/:id" element={<Details />} />
+        <Route path="/#/work-with-us" element={<WorkWithUs />} />
       </Routes>
     </div>
   );
