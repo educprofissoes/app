@@ -40,7 +40,7 @@ const Vocational = () => {
         <section className="cursos">
           <h2>Cursos Disponíveis</h2>
           {cursos.map((c) => (
-            <div onClick={() => redirect(`#/vocational/${c.id}`)} className="curso" key={c.id}>
+            <div onClick={() => redirect(c.id)} className="curso" key={c.id}>
               <div className="curso-content">
                 <img src={c.imagemUrl} alt={c.title} className="curso-imagem" />
                 <div className="curso-texto">
