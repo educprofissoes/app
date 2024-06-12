@@ -17,11 +17,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/vocational" element={<Vocational />} />
-          <Route path="/#/technical" element={<Technical />} />
-          <Route path="/#/degree" element={<Degree />} />
-          <Route path="/#/language" element={<Language />} />
-          <Route path="/#/vocational/:id" element={<Details />} />
-          <Route path="/#/work-with-us" element={<WorkWithUs />} />
+          <Route path="/technical" element={<Technical />} />
+          <Route path="/degree" element={<Degree />} />
+          <Route path="/language" element={<Language />} />
+          <Route path="/vocational/:id" element={<Details />} />
+          <Route path="/work-with-us" element={<WorkWithUs />} />
         </Routes>
       </HashRouter>
     </div>
