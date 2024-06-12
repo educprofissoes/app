@@ -39,10 +39,10 @@ function Header() {
             <img className="dropdown-img" src={dropDown} alt="dropdown" />
             {isDropdownOpen && (
               <div className="dropdown-content">
-                <a href="/vocational">Profissionalizantes</a>
-                <a href="/technical">Técnicos</a>
-                <a href="/degree">Graduações</a>
-                <a href="/language">Idiomas</a>
+                <a href="/#/vocational">Profissionalizantes</a>
+                <a href="#/technical">Técnicos</a>
+                <a href="/app/#/degree">Graduações</a>
+                <a href="/app/language">Idiomas</a>
               </div>
             )}
           </a>
