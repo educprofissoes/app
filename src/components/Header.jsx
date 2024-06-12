@@ -26,7 +26,7 @@ function Header() {
   return (
     <div className="header-container">
       <div className="menu-container">
-        <a href="/app">
+        <a href="/#/">
           <img className='educ-icon' src={educ} alt="menu" />
         </a>
         <button className="menu-button" type="button" aria-label="Abrir menu" onClick={toggleModal}>
@@ -39,16 +39,16 @@ function Header() {
             <img className="dropdown-img" src={dropDown} alt="dropdown" />
             {isDropdownOpen && (
               <div className="dropdown-content">
-                <a href="/app/vocational">Profissionalizantes</a>
-                <a href="/app/technical">Técnicos</a>
-                <a href="/app/degree">Graduações</a>
-                <a href="/app/language">Idiomas</a>
+                <a href="/#/vocational">Profissionalizantes</a>
+                <a href="/#/technical">Técnicos</a>
+                <a href="/#/degree">Graduações</a>
+                <a href="/#/language">Idiomas</a>
               </div>
             )}
           </a>
         </div>
-        <a href="/app/about">Sobre</a>
-        <a href="/app/work-with-us">Trabalhe Conosco</a>
+        <a href="/#/about">Sobre</a>
+        <a href="/#/work-with-us">Trabalhe Conosco</a>
       </nav>
       <div className='social-links-container'>
         <a href="https://www.instagram.com/educprofissoes/" target="_blank">

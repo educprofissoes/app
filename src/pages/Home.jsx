@@ -21,25 +21,25 @@ function Home() {
       title: "Profissionalizante",
       subjects: "Na EDUC, oferecemos uma variedade de cursos profissionalizantes em diversas áreas, com instrutores comprometidos em seu sucesso. Preparamos você para o mercado de trabalho atual, fornecendo habilidades práticas e conhecimento especializado para se destacar em sua carreira. Investindo em seu futuro conosco, você alcança seus objetivos profissionais.",
       src: educ,
-      url: "/vocational"
+      url: "/#/vocational"
     },
     {
       title: "Técnico",
       subjects: "Na UNICORP, oferecemos uma variedade de cursos técnicos em diversas áreas, com instrutores dedicados ao seu sucesso. Preparamos você para as demandas do mercado atual, fornecendo habilidades práticas e conhecimento especializado para impulsionar sua carreira. Investir em um curso técnico na UNICORP é investir em seu futuro profissional, capacitando-o a alcançar seus objetivos no mercado de trabalho.",
       src: unicorp,
-      url: "/technical"
+      url: "/#/technical"
     },
     {
       title: "Idiomas",
       subjects: "Na EDUC, oferecemos uma variedade de cursos de idiomas, com instrutores dedicados ao seu sucesso linguístico. Preparamos você para a comunicação eficaz em um mundo globalizado, fornecendo habilidades práticas e conhecimento especializado em idiomas estrangeiros. Investir em um curso de idiomas na EDUC é investir em seu futuro pessoal e profissional, capacitando-o a se conectar e se comunicar de forma mais eficaz em ambientes multiculturais.",
       src: educ,
-      url: "/language"
+      url: "/#/language"
     },
     {
       title: "Graduação Superior",
       subjects: "Na Newton, oferecemos uma ampla variedade de cursos de graduação superior, com professores dedicados ao seu sucesso acadêmico. Preparamos você para os desafios do mercado de trabalho, fornecendo uma base sólida de conhecimento e habilidades práticas. Investir em uma graduação na Newton é investir em seu futuro profissional, capacitando-o a alcançar seus objetivos de carreira.",
       src: newton,
-      url: "/degree"
+      url: "/#/degree"
     },
   ]
 
