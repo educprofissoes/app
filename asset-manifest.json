@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.81fe590b.css",
+    "main.js": "/app/static/js/main.51293eee.js",
+    "static/js/453.11489946.chunk.js": "/app/static/js/453.11489946.chunk.js",
+    "static/media/marketing.jpg": "/app/static/media/marketing.ce0e67ae53967e2ac532.jpg",
+    "static/media/photo.jpg": "/app/static/media/photo.cd1122c2739ff1afb934.jpg",
+    "static/media/escola-3.jpg": "/app/static/media/escola-3.a1d815e87cc330376fe4.jpg",
+    "static/media/professor-2.png": "/app/static/media/professor-2.0bc272a36b3c606eaf46.png",
+    "static/media/professor-3.jpg": "/app/static/media/professor-3.e147b85db7b1a6365cdf.jpg",
+    "static/media/whatsapp.png": "/app/static/media/whatsapp.466ae7f00ff8d39fc73d.png",
+    "static/media/educ.png": "/app/static/media/educ.f4cb434ba97be33d3e51.png",
+    "static/media/professor-1.jpg": "/app/static/media/professor-1.e8dbfe49dade4d4c02ad.jpg",
+    "static/media/design.jpeg": "/app/static/media/design.40c0759a74662e3bd157.jpeg",
+    "static/media/escola-1.jpg": "/app/static/media/escola-1.19ab2a8af8913b4b9914.jpg",
+    "static/media/escola-2.jpg": "/app/static/media/escola-2.4f3446266732900caa8a.jpg",
+    "static/media/email.png": "/app/static/media/email.26a92c13ab41e5e6f0a1.png",
+    "static/media/instagram.png": "/app/static/media/instagram.ba6e1d91a1337b582ea9.png",
+    "static/media/gps.png": "/app/static/media/gps.fbea8cd0ff7bda45771e.png",
+    "static/media/chat.png": "/app/static/media/chat.a31bd2c610c021e73a9a.png",
+    "static/media/newton.png": "/app/static/media/newton.0a8ebbc90a3b36077ddf.png",
+    "static/media/unicorp.png": "/app/static/media/unicorp.8a9da786a7bea00314ef.png",
+    "index.html": "/app/index.html",
+    "main.81fe590b.css.map": "/app/static/css/main.81fe590b.css.map",
+    "main.51293eee.js.map": "/app/static/js/main.51293eee.js.map",
+    "453.11489946.chunk.js.map": "/app/static/js/453.11489946.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fe590b.css",
+    "static/js/main.51293eee.js"
+  ]
+}
