@@ -2,6 +2,7 @@ import React from 'react';
 import './WorkWithUs.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Chat from '../components/Chat';
 
 function WorkWithUs() {
   return (
@@ -47,6 +48,7 @@ function WorkWithUs() {
           </form>
         </div>
       </div>
+      <Chat />
       <Footer />
     </div>
   );

@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import photo from '../assets/photo.jpg';
 import design from '../assets/design.jpeg';
 import marketing from '../assets/marketing.jpg';
+import Chat from '../components/Chat';
 
 const Degree = () => {
   const [cursos, setCursos] = useState([
@@ -59,6 +60,7 @@ const Degree = () => {
           ))}
         </section>
       </div>
+      <Chat />
       <Footer />
     </div>
   );

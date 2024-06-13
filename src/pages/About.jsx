@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './About.css'
+import Chat from '../components/Chat';
 const school1 = require('../assets/escola-1.jpg');
 const school2 = require('../assets/escola-2.jpg');
 const school3 = require('../assets/escola-3.jpg');
@@ -62,6 +63,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Chat />
       <Footer />
 
     </div>

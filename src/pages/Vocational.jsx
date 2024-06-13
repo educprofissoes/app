@@ -2,22 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './Vocational.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { useNavigate } from 'react-router-dom';
+import Chat from '../components/Chat';
 import { db } from '../db/courses';
+import Card from '../components/Card';
 
 
 const Vocational = () => {
   const [cursos, setCursos] = useState([]);
   const [cursoExpandido, setCursoExpandido] = useState(null);
-  const navigate = useNavigate();
 
   useEffect(() => {
     setCursos(db);
   }, []);
-
-  const redirect = (url) => {
-    navigate(url);
-  };
 
   return (
     <div>
@@ -37,30 +33,22 @@ const Vocational = () => {
             <li>Certificado de conclusão</li>
           </ul>
         </section>
+        <h2 className="available-courses">Cursos Disponíveis</h2>
         <section className="cursos">
-          <h2>Cursos Disponíveis</h2>
           {cursos.map((c) => (
-            <div onClick={() => redirect(`${c.id}`)} className="curso" key={c.id}>
-              <div className="curso-content">
-                <img src={c.imagemUrl} alt={c.title} className="curso-imagem" />
-                <div className="curso-texto">
-                  <h3>{c.title}</h3>
-                  <p>{c.description}</p>
-                  <p>{c.hours}</p>
-                  <hr class="card-divider" />
-                  <div className="card-button">
-                    <span>
-                      Saiba Mais
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Card
+              title={c.title}
+              subject={c.description}
+              image={c.imagemUrl}
+              id={c.id}
+              key={c.id}
+            />
           ))}
         </section>
-      </div>
+      </div >
+      <Chat />
       <Footer />
-    </div>
+    </div >
   );
 };
 

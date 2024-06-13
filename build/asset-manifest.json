@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/app/static/css/main.81fe590b.css",
-    "main.js": "/app/static/js/main.5f7b976d.js",
+    "main.js": "/app/static/js/main.a868d850.js",
     "static/js/453.11489946.chunk.js": "/app/static/js/453.11489946.chunk.js",
     "static/media/marketing.jpg": "/app/static/media/marketing.ce0e67ae53967e2ac532.jpg",
     "static/media/photo.jpg": "/app/static/media/photo.cd1122c2739ff1afb934.jpg",
@@ -22,11 +22,11 @@
     "static/media/unicorp.png": "/app/static/media/unicorp.8a9da786a7bea00314ef.png",
     "index.html": "/app/index.html",
     "main.81fe590b.css.map": "/app/static/css/main.81fe590b.css.map",
-    "main.5f7b976d.js.map": "/app/static/js/main.5f7b976d.js.map",
+    "main.a868d850.js.map": "/app/static/js/main.a868d850.js.map",
     "453.11489946.chunk.js.map": "/app/static/js/453.11489946.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81fe590b.css",
-    "static/js/main.5f7b976d.js"
+    "static/js/main.a868d850.js"
   ]
 }

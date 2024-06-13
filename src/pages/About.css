@@ -15,7 +15,7 @@ body {
 
 .about-header h2 {
   font-size: 36px;
-  color: #333;
+  color: rgb(2, 51, 117);
   margin: 0;
 }
 
@@ -33,13 +33,13 @@ body {
 
 .about-section h3 {
   font-size: 32px;
-  color: #333;
+  color: rgb(2, 51, 117);
 }
 
 .about-section p {
   font-size: 16px;
   line-height: 1.5;
-  color: #666;
+  color: #333333;
 }
 
 .about-section ul {
@@ -49,7 +49,7 @@ body {
 
 .about-section ul li {
   font-size: 16px;
-  color: #666;
+  color: #333333;
   margin-left: 2vw;
 }
 
