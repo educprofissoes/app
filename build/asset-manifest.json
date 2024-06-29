@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/app/static/css/main.81fe590b.css",
-    "main.js": "/app/static/js/main.a868d850.js",
+    "main.css": "/app/static/css/main.84624cf7.css",
+    "main.js": "/app/static/js/main.cf8364d2.js",
     "static/js/453.11489946.chunk.js": "/app/static/js/453.11489946.chunk.js",
+    "static/media/ad.mp4": "/app/static/media/ad.a07eae1b0e7da0ad49a5.mp4",
     "static/media/marketing.jpg": "/app/static/media/marketing.ce0e67ae53967e2ac532.jpg",
     "static/media/photo.jpg": "/app/static/media/photo.cd1122c2739ff1afb934.jpg",
     "static/media/escola-3.jpg": "/app/static/media/escola-3.a1d815e87cc330376fe4.jpg",
@@ -21,12 +22,12 @@
     "static/media/newton.png": "/app/static/media/newton.0a8ebbc90a3b36077ddf.png",
     "static/media/unicorp.png": "/app/static/media/unicorp.8a9da786a7bea00314ef.png",
     "index.html": "/app/index.html",
-    "main.81fe590b.css.map": "/app/static/css/main.81fe590b.css.map",
-    "main.a868d850.js.map": "/app/static/js/main.a868d850.js.map",
+    "main.84624cf7.css.map": "/app/static/css/main.84624cf7.css.map",
+    "main.cf8364d2.js.map": "/app/static/js/main.cf8364d2.js.map",
     "453.11489946.chunk.js.map": "/app/static/js/453.11489946.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81fe590b.css",
-    "static/js/main.a868d850.js"
+    "static/css/main.84624cf7.css",
+    "static/js/main.cf8364d2.js"
   ]
 }
