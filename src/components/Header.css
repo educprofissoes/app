@@ -93,8 +93,6 @@ body {
     align-items: center;
   }
 
-  .header-container {}
-
   .menu-button {
     display: flex;
   }
@@ -198,6 +196,14 @@ body.modal-open {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.dropdown a img {
+  transition: transform 0.3s ease;
+}
+
+.dropdown a:hover img {
+  transform: rotate(180deg);
 }
 
 @keyframes fade-in {
